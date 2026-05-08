@@ -1,0 +1,7 @@
+{
+  "name": "mdt-player-leaderboard",
+  "author": "monthzifang",
+  "main": "com.mdt.leaderboard.PlayerLeaderboardPlugin",
+  "description": "通过调用列表数据系统读取某个值并进行排行榜计算，谁的对应素质值更高谁就排得更前。",
+  "version": "v1"
+}

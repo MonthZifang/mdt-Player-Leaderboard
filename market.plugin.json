@@ -1,0 +1,24 @@
+{
+  "metadataVersion": 1,
+  "name": "mdt-player-leaderboard",
+  "displayName": "MDT Player Leaderboard",
+  "displayNameZh": "MDT 玩家排行榜",
+  "author": "monthzifang",
+  "description": "Builds ranking panels from a specified value in list data and sorts players by the configured metric.",
+  "descriptionZh": "通过调用列表数据系统读取某个值并进行排行榜计算，谁的对应素质值更高谁就排得更前。",
+  "version": "v1",
+  "requiredMarketVersion": "v1",
+  "channel": "native",
+  "targets": [
+    "original"
+  ],
+  "downloadUrls": [
+    "https://raw.githubusercontent.com/MonthZifang/mdt-Player-Leaderboard/main/dist/mdt-player-leaderboard.jar",
+    "https://raw.githubusercontent.com/MonthZifang/mdt-Player-Leaderboard/main/plugin.json"
+  ],
+  "dependencies": [
+    "mdt-list-data-system"
+  ],
+  "repositoryUrl": "https://github.com/MonthZifang/mdt-Player-Leaderboard",
+  "entry": "com.mdt.leaderboard.PlayerLeaderboardPlugin"
+}
